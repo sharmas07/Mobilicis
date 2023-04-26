@@ -1,0 +1,59 @@
+/* Selector container */
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  /* Selector label */
+  label {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* Selector dropdown */
+  select {
+    margin: 1rem;
+    font-size: 16px;
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-shadow: none;
+    appearance: none;
+    outline: none;
+    width: 350px;
+    max-width: 100%;
+    background-color: #f8f8f8;
+  }
+  
+  /* Selector dropdown arrow */
+  select::-ms-expand {
+    display: none;
+  }
+  
+  /* Selector dropdown options */
+  option {
+    font-size: 16px;
+    background-color: #fff;
+  }
+  
+  /* Selector submit button */
+  button {
+    margin-left: 1rem;
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: blue;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  /* Selector submit button hover state */
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
