@@ -8,7 +8,7 @@ const Top10Cities = () => {
     useEffect( () => {
       setLoading(true)
         const getUsers = async ()=>{
-            await axios.get('http://localhost:8080/api/v1/route5')
+            await axios.get('https://mobilicis-api-y7m3.onrender.com/api/v1/route5')
         .then(res => {
             setUsers(res.data);
             console.log(res.data)

@@ -8,7 +8,7 @@ const UsersWithLowIncome = () => {
     useEffect( () => {
         const getUsers = async ()=>{
           setLoading(true)
-            await axios.get('http://localhost:8080/api/v1/route1')
+            await axios.get('https://mobilicis-api-y7m3.onrender.com/api/v1/route1')
         .then(res => {
             setUsers(res.data);
             setLoading(false)

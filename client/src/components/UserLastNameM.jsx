@@ -9,7 +9,7 @@ const UserLastNameM = () => {
     const getUsers = async () => {
       setLoading(true);
       await axios
-        .get("http://localhost:8080/api/v1/route3")
+        .get("https://mobilicis-api-y7m3.onrender.com/api/v1/route3")
         .then((res) => {
           setUsers(res.data);
           setLoading(false);
